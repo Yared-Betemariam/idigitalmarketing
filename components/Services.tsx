@@ -41,7 +41,7 @@ const Services = () => {
             What we <span className="text-primary">offer?</span>
           </h2>
           <p className="body max-w-md mx-auto text-center mb-8">
-            Empowering Businesses with Customized Software Solutions.
+            Empowering Businesses with Full Service Digital Marketing.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-5xl mx-auto">
             {services.map((item, i) => (

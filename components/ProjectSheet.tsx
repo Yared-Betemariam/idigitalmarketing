@@ -79,7 +79,7 @@ const ProjectSheet = ({ project }: { project: (typeof works)[0] }) => {
         >
           {project.photos.map((item, i) => (
             <div key={i} className="flex w-auto h-fit">
-              {item.startsWith("/videos") ? (
+              {item.startsWith("/videos") || item.startsWith("https") ? (
                 <video
                   key={i}
                   src={item.split("_")[0]}
@@ -87,8 +87,8 @@ const ProjectSheet = ({ project }: { project: (typeof works)[0] }) => {
                   width={820}
                   className={cn(
                     item.split("_")[1] !== "b"
-                      ? "max-w-[240px] h-auto"
-                      : "max-w-[760px] h-auto"
+                      ? "max-w-[240px] min-h-[420px]"
+                      : "max-w-[760px] min-h-[420px]"
                   )}
                 />
               ) : (

@@ -68,9 +68,9 @@ const WorksSection = () => {
           <video
             src={"/videos/0730.mp4"}
             controls
-            height={900}
+            height={600}
             width={300}
-            className="rounded-md mx-auto md:ml-auto md:mr-0  shadow-xl shadow-black/20 p-2 bg-black/40"
+            className="rounded-md h-[540px] mx-auto md:ml-auto md:mr-0  shadow-xl shadow-black/20 p-2 bg-black/40"
           />
         </div>
       </div>
