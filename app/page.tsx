@@ -1,7 +1,6 @@
 import AboutMeSection from "@/components/AboutMeSection";
 import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
-import Resume from "@/components/Resume";
 import Services from "@/components/Services";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import WorksSection from "@/components/WorksSection";
