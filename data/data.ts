@@ -10,7 +10,8 @@ export const works = [
       "/works/7.jpg",
       "/videos/1.mp4",
       "/videos/2.mp4",
-      "/videos/chekay.mp4",
+      // "/videos/chekay.mp4",,
+      "https://firebasestorage.googleapis.com/v0/b/chessv2-12d72.appspot.com/o/chekay.mp4?alt=media&token=9b07c4d9-4b1f-4fe3-8777-947c1522e04e",
     ],
   },
   {
