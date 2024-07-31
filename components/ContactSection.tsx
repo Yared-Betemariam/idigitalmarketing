@@ -64,7 +64,7 @@ const ContactSection = () => {
               className="flex  flex-col md:flex-row items-center gap-6 md:gap-10"
             >
               <div className="grid place-content-center bg-gradient-to-bl from-black to-secondary-foreground/20  p-6 shadow-none rounded-full">
-                {<item.Icon size={42} className="w-4 h-4 md:h-10 md:w-10" />}
+                {<item.Icon size={42} className="w-6 h-6 md:h-10 md:w-10" />}
               </div>
               <div className="text-center md:text-start">
                 <p className="opacity-70 text-base md:text-lg">{item.label}</p>
