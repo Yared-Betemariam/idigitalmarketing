@@ -38,7 +38,11 @@ const AboutMeSection = () => {
       <section className="wrapper flex py-10 flex-col" id="about">
         <div className="flex flex-col items-center justify-center gap-4">
           <p className="subheader text-center">About us</p>
-          <h2 className={fontWrapper("text-5xl md:text-6xl font-bold mb-8")}>
+          <h2
+            className={fontWrapper(
+              "text-5xl md:text-6xl text-center font-bold mb-8"
+            )}
+          >
             Who are <span className="text-primary">we?</span>
           </h2>
           <div className="body max-w-2xl text-center">

@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { navLinks } from "./Nav";
+import ContactButton from "./ContactButton";
 
 const MenuSheet = () => {
   const [pathname, setPathname] = useState("");
@@ -45,6 +46,9 @@ const MenuSheet = () => {
             </a>
           </SheetClose>
         ))}
+        <SheetClose>
+          <ContactButton simple />
+        </SheetClose>
       </SheetContent>
     </Sheet>
   );

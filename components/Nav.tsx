@@ -57,7 +57,7 @@ const Nav = () => {
                 {item.name}
               </a>
             ))}
-            <ContactButton simple />
+            <ContactButton className="hidden md:flex" simple />
           </div>
           <div className="relative sm:hidden h-12 w-12">
             <MenuSheet />

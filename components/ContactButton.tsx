@@ -3,9 +3,15 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
 
-const ContactButton = ({ simple }: { simple?: boolean }) => {
+const ContactButton = ({
+  className,
+  simple,
+}: {
+  simple?: boolean;
+  className?: string;
+}) => {
   return (
-    <a href={"#contact"} className="">
+    <a href={"#contact"} className={className}>
       <Button
         size={"lg"}
         variant={"secondary"}
