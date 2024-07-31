@@ -59,13 +59,13 @@ const ContactSection = () => {
         </div>
         <div className="flex md:w-[50%] flex-col gap-10">
           {contactInfo.map((item) => (
-            <div key={item.data} className="flex items-center gap-10">
+            <div key={item.data} className="flex items-center gap-6 md:gap-10">
               <div className="grid place-content-center bg-gradient-to-bl from-black to-secondary-foreground/20  p-6 shadow-none rounded-full">
-                {<item.Icon size={42} className="w-8 h-8 lg:h-10 lg:w-10" />}
+                {<item.Icon size={42} className="w-4 h-4 md:h-10 md:w-10" />}
               </div>
               <div>
-                <p className="opacity-70">{item.label}</p>
-                <p className="text-xl lg:text-2xl">{item.data}</p>
+                <p className="opacity-70 text-xs">{item.label}</p>
+                <p className="text-base md:text-xl :text-2xl">{item.data}</p>
               </div>
             </div>
           ))}

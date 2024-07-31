@@ -82,7 +82,9 @@ const AboutMeSection = () => {
                 <span className="text-5xl md:text-6xl font-semibold text-primary">
                   {item.number}+
                 </span>
-                <p className="text-sm md:text-base opacity-60">{item.title}</p>
+                <p className="text-sm md:text-base opacity-60 text-center">
+                  {item.title}
+                </p>
               </div>
             ))}
           </div>

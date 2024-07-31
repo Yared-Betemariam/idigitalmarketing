@@ -51,7 +51,7 @@ const ProjectSheet = ({ project }: { project: (typeof works)[0] }) => {
               alt="logo"
               width={700}
               height={700}
-              className="w-32 shadow-xl"
+              className="w-32 shadow-xl mx-auto mb-2"
             />
           )}
           <h2 className={fontWrapper("text-4xl pl-4 mb-3 font-bold")}>
@@ -73,7 +73,7 @@ const ProjectSheet = ({ project }: { project: (typeof works)[0] }) => {
         {/* <div className="flex flex-col gap-6"> */}
         <div
           className={cn(
-            "flex max-w-[70%] pb-3 scrollchange gap-4 bg-black/40 p-3 rounded overflow-auto flex-nowrap",
+            "flex max-w-[90%] md:max-w-[70%] pb-3 scrollchange gap-4 bg-black/40 p-3 rounded overflow-auto flex-nowrap",
             !project.title && ""
           )}
         >

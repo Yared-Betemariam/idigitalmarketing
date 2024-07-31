@@ -15,7 +15,7 @@ const WorksSection = () => {
       {/* <span className="bg-circle bg-no-repeat top-[20rem] right-[20rem] opacity-20 absolute w-[40rem] -z-10 h-[40rem] bg-contain bg-center" /> */}
       <div className="wrapper flex flex-col  gap-4">
         <p className="subheader mx-auto">Portfolio</p>
-        <h2 className={fontWrapper("h2 mx-auto")}>
+        <h2 className={fontWrapper("h2 mx-auto text-center")}>
           Recent <span className="text-primary">Projects</span>
         </h2>
         <p className="body mx-auto mb-12">Projects that speak for themselves</p>

@@ -42,7 +42,7 @@ const TestimonialsSection = () => {
       >
         <div className="flex flex-col py-20 gap-4">
           <p className="subheader mx-auto">Testimonails</p>
-          <h2 className={fontWrapper("h2 mx-auto")}>
+          <h2 className={fontWrapper("h2 mx-auto text-center md:text-start")}>
             Client <span className="text-primary">reviews</span>
           </h2>
           <p className="body mx-auto mb-12">

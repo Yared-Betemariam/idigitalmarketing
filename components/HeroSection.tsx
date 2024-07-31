@@ -23,7 +23,7 @@ const HeroSection = () => {
           <div className="flex items-center">
             <h1
               className={fontWrapper(
-                "text-[2.5rem] leading-[1] sm:text-5xl md:text-7xl sm:leading-[3.5rem] md:leading-[5.75rem] font-bold drop-shadow-md capitalize flex flex-col gap-2"
+                "text-[2.25rem] leading-[1.2] sm:text-5xl md:text-7xl sm:leading-[3.5rem] md:leading-[5.75rem] font-bold drop-shadow-md capitalize flex flex-col gap-2"
               )}
             >
               <span>grow your business with</span>
@@ -51,7 +51,7 @@ const HeroSection = () => {
             Worked with over different clients
           </p>
           <div className="overflow-hidden mask flex flex-nowrap">
-            <div className="flex transition-all duration-300 gap-12 animate_slide w-fit whitespace-nowrap">
+            <div className="flex transition-all duration-300 gap-4 md:gap-12 animate_slide w-fit whitespace-nowrap">
               {Images}
               {Images}
             </div>

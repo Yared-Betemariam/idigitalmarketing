@@ -37,7 +37,7 @@ const Services = () => {
         {/* <span className="bg-circle bg-no-repeat -top-[15rem] left-0 opacity-10 -z-10 absolute w-[50rem] h-[50rem] bg-contain bg-center" /> */}
         <div className="flex flex-col py-14 gap-4">
           <p className="subheader text-center">Services</p>
-          <h2 className={fontWrapper("h2 mx-auto")}>
+          <h2 className={fontWrapper("h2 mx-auto text-center")}>
             What we <span className="text-primary">offer?</span>
           </h2>
           <p className="body max-w-md mx-auto text-center mb-8">

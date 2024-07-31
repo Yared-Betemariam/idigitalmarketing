@@ -40,7 +40,7 @@ const Nav = () => {
     <header className="sticky top-0 w-full inset-x-0 pb-1 flex border-b bg-zinc-900 h-20 z-50 border-gray-100/15 ">
       <nav className="wrapper flex items-center justify-between w-full h-full">
         <Logo />
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-4">
           <div className="flex items-center gap-10">
             {navLinks.map((item) => (
               <a
